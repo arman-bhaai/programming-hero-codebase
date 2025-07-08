@@ -1,3 +1,9 @@
+/* variables */
+:root {
+    --dark-1: #181818;
+    --dark-2: #474747;
+    --dark-3: #757575;
+}
 /* shared styles */
 .primary-color {
     color: #FD6E0A;
@@ -19,6 +25,9 @@
     border-radius: 5px;
     font-size: 20px;
     border: none;
+}
+.secondary-bg {
+    background-color: #FFF8F3;
 }
 
 /* header styles */
@@ -98,4 +107,46 @@ nav li a {
     /* border: 1px solid #000; */
     width: 584px;
     height: 676px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* section styles */
+.section-title {
+    color: var(--dark-1);
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description {
+    color: var(--dark-3);
+    font-size: 18px;
+}
+
+/* about styles */
+.about {
+    text-align: center;
+    border-radius: 10px;
+    padding: 131px 156px;
+    margin-top: 130px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+.about-items {
+    margin-top: 40px;
+}
+.item-title {
+    color: var(--dark-3);
+    font-size: 20px;
+}
+.item-description {
+    color: var(--dark-2);
+    font-size: 20px;
+    font-weight: bold;
 }
