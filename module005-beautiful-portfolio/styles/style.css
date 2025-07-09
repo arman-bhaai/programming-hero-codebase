@@ -218,3 +218,43 @@ main section {
  .btn-download-cv {
     margin: 25px;
  }
+
+ /* footer style */
+ footer {
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+ }
+
+ footer .section-title {
+    margin-bottom: 20px;
+ }
+
+ footer input {
+    display: block;
+ }
+ footer .section-description {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 0;
+ }
+ .social img {
+    margin-right: 24px;
+ }
+.footer-column {
+    /* border: 1px solid black; */
+    width: 50%;
+}
+footer input[type="text"], input[type="email"], textarea {
+    height: 64px;
+    color: var(--dark-3);
+    background-color: white;
+    border-radius: 5px;
+    margin: 12px 0;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
+footer textarea {
+    height: 180px;
+}
